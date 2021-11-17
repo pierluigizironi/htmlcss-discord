@@ -48,11 +48,38 @@ body {
 }
 
 .margin-text {
-    margin: 20px 0px;
+    margin: 30px 0px;
 }
 
 .text-white {
     color: white;
+}
+
+.btn {
+     text-decoration: none;
+     display: inline;
+     margin: 0 20px;
+}
+
+.btn-white {
+    color: black;
+    background-color: white;
+}
+
+.btn-black {
+    color: white;
+    background-color: black;
+}
+
+.btn-small {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-big {
+    padding: 15px 20px;
+    border-radius: 30px;
 }
 
 /* Header */
@@ -112,6 +139,10 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.introduction a {
     font-weight: bold;
 }
