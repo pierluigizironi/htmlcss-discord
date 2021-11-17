@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial, sans-serif';
 }
 
 /* Utilities */
@@ -59,6 +59,10 @@ body {
     margin: 30px 0px;
 }
 
+.margin-page {
+    margin: 20% 0px;
+}
+
 .text-white {
     color: white;
 }
@@ -79,6 +83,11 @@ body {
     background-color: black;
 }
 
+.btn-purple {
+    color: white;
+    background-color: #8EA1E1;
+}
+
 .btn-small {
     padding: 10px 15px;
     border-radius: 20px;
@@ -88,6 +97,10 @@ body {
 .btn-big {
     padding: 15px 20px;
     border-radius: 30px;
+}
+
+.background-grey {
+    background-color: #F6F6F6;
 }
 
 /* Header */
@@ -140,7 +153,7 @@ header {
     transform: translate(50%, 50%);
 }
 
-.introduction h1 {
+.introduction h2 {
     color: white;
     font-size: 50px;
     margin: 40px 0px;
@@ -149,6 +162,10 @@ header {
 p {
     font-size: 19px;
     font-weight: bold;
+}
+
+.introduction h1 {
+    font-size: 60px;
 }
 
 .introduction a {
@@ -167,13 +184,34 @@ p {
 }
 
 .title-page {
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .page-image {
-    height: 550px;
+    height: 450px;
+    margin-left: 10%;
 }
 
 .page-explanation {
     font-weight: 200;
+}
+
+/* Donwload Page */
+
+.page-download {
+    height: 100vh;
+    position: relative;
+}
+
+.title-description {
+    position: absolute;
+    top: 50px;
+}
+
+.img-big {
+    height: 600px;
+}
+
+h3 {
+    font-size: 30px;
 }
