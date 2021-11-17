@@ -35,12 +35,24 @@ body {
     width: 60%;
 }
 
+.w50 {
+    width: 40%;
+}
+
 .text-center {
     text-align: center;
 }
 
 .text-right {
     text-align: right;
+}
+
+.margin-text {
+    margin: 20px 0px;
+}
+
+.text-white {
+    color: white;
 }
 
 /* Header */
@@ -57,7 +69,7 @@ header {
 }
 
 #logo {
-    margin-top: 30px;
+    vertical-align: middle;
 }
 
 .main-nav li {
@@ -78,5 +90,28 @@ header {
 
 /* Spotlight */
 .spotlight {
-    height: 500px;
+    height: 600px;
+    background-image: url('../css/img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.spotlight .introduction {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin: 40px 0px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
 }
