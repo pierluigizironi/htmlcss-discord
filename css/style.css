@@ -31,12 +31,20 @@ body {
     width: 20%;
 }
 
+.w30 {
+    width: 30%;
+}
+
 .w60 {
     width: 60%;
 }
 
-.w50 {
+.w40 {
     width: 40%;
+}
+
+.w70 {
+    width: 70%;
 }
 
 .text-center {
@@ -132,7 +140,7 @@ header {
     transform: translate(50%, 50%);
 }
 
-h1 {
+.introduction h1 {
     color: white;
     font-size: 50px;
     margin: 40px 0px;
@@ -145,4 +153,27 @@ p {
 
 .introduction a {
     font-weight: bold;
+}
+
+/* Pagine a scorrimento */
+
+.page-description {
+    height: 100vh;
+    position: relative;
+}
+
+.page-description .col {
+  margin: 15% 0px;
+}
+
+.title-page {
+    font-size: 55px;
+}
+
+.page-image {
+    height: 550px;
+}
+
+.page-explanation {
+    font-weight: 200;
 }
