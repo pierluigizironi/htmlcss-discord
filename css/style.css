@@ -31,6 +31,10 @@ body {
     width: 20%;
 }
 
+.w15 {
+    width: 15%;
+}
+
 .w30 {
     width: 30%;
 }
@@ -62,6 +66,7 @@ body {
 .margin-page {
     margin: 20% 0px;
 }
+
 
 .text-white {
     color: white;
@@ -101,6 +106,22 @@ body {
 
 .background-grey {
     background-color: #F6F6F6;
+}
+
+.padding-page {
+    padding: 5% 0px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+.txt-purple {
+    color: #7289DA;
 }
 
 /* Header */
@@ -211,6 +232,24 @@ p {
     height: 600px;
 }
 
-h3 {
-    font-size: 30px;
+/* Footer */
+
+footer {
+    background-color:#23272A;
+    height: 500px;
+}
+
+footer li {
+    display: block;
+    margin: 10px 0px;
+}
+
+footer .col ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer .col ul a:hover {
+    text-decoration: underline;
 }
