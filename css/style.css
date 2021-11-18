@@ -27,6 +27,10 @@ body {
     float: left;
 }
 
+.w10 {
+    width: 10%;
+}
+
 .w20 {
     width: 20%;
 }
@@ -49,6 +53,10 @@ body {
 
 .w70 {
     width: 70%;
+}
+
+.w90 {
+    width: 90%;
 }
 
 .text-center {
@@ -234,6 +242,10 @@ p {
 
 /* Footer */
 
+.padding-footer {
+    padding: 50px 0px;
+}
+
 footer {
     background-color:#23272A;
     height: 500px;
@@ -283,4 +295,15 @@ footer .lng-choice {
 .fa-brands {
     margin: 0px 10px;
     font-size: 20px;
+}
+
+footer hr {
+  height: 0; 
+  border: 0; 
+  border-top: 1px solid #7289DA;
+    margin: 30px 0px;
+}
+
+#footer-logo {
+    margin-bottom: 20px;
 }
