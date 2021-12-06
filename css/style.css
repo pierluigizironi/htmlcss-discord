@@ -1,210 +1,209 @@
 /* Generics */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .clearfix::after {
-    display: table; 
-    content: '';
-    clear: both;
+  display: table;
+  content: "";
+  clear: both;
 }
 
 body {
-    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial, sans-serif';
+  font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial, sans-serif";
 }
 
 /* Utilities */
 
 .container {
-    max-width: 1200px; 
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .col {
-    float: left;
+  float: left;
 }
 
 .w10 {
-    width: 10%;
+  width: 10%;
 }
 
 .w20 {
-    width: 20%;
+  width: 20%;
 }
 
 .w15 {
-    width: 15%;
+  width: 15%;
 }
 
 .w30 {
-    width: 30%;
+  width: 30%;
 }
 
 .w60 {
-    width: 60%;
+  width: 60%;
 }
 
 .w40 {
-    width: 40%;
+  width: 40%;
 }
 
 .w70 {
-    width: 70%;
+  width: 70%;
 }
 
 .w90 {
-    width: 90%;
+  width: 90%;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .margin-text {
-    margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 .margin-page {
-    margin: 20% 0px;
+  margin: 20% 0px;
 }
 
-
 .text-white {
-    color: white;
+  color: white;
 }
 
 .btn {
-     text-decoration: none;
-     display: inline;
-     margin: 0 20px;
+  text-decoration: none;
+  display: inline;
+  margin: 0 20px;
 }
 
 .btn-white {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
 .btn-black {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 .btn-purple {
-    color: white;
-    background-color: #8EA1E1;
+  color: white;
+  background-color: #8ea1e1;
 }
 
 .btn-small {
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
 }
 
 .btn-big {
-    padding: 15px 20px;
-    border-radius: 30px;
+  padding: 15px 20px;
+  border-radius: 30px;
 }
 
 .background-grey {
-    background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .padding-page {
-    padding: 5% 0px;
+  padding: 5% 0px;
 }
 
 h4 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 h5 {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .txt-purple {
-    color: #7289DA;
+  color: #7289da;
 }
 
 /* Header */
 
 header {
-    background-color: #3161E0;
+  background-color: #3161e0;
 }
 
 /* Man Nav */
 
 .main-nav {
-    height: 80px;
-    line-height: 80px;
+  height: 80px;
+  line-height: 80px;
 }
 
 #logo {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .main-nav li {
-    display: inline;
+  display: inline;
 }
 
 .main-nav ul li a {
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0px 15px;
-    text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 15px;
+  text-decoration: none;
 }
 
-.main-nav .col a:hover{
-    text-decoration: underline;
+.main-nav .col a:hover {
+  text-decoration: underline;
 }
 
 /* Spotlight */
 .spotlight {
-    height: 600px;
-    background-image: url('../css/img/jumbo.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+  height: 600px;
+  background-image: url("../css/img/jumbo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
 .spotlight .introduction {
-    position: absolute;
-    bottom: 50%;
-    right: 50%;
-    transform: translate(50%, 50%);
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
 }
 
 .introduction h2 {
-    color: white;
-    font-size: 50px;
-    margin: 40px 0px;
+  color: white;
+  font-size: 50px;
+  margin: 40px 0px;
 }
 
 p {
-    font-size: 19px;
-    font-weight: bold;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .introduction h1 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .introduction a {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Pagine a scorrimento */
 
 .page-description {
-    position: relative;
+  position: relative;
 }
 
 .page-description .col {
@@ -212,98 +211,108 @@ p {
 }
 
 .title-page {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .page-image {
-    height: 450px;
-    margin-left: 10%;
+  height: 450px;
+  margin-left: 10%;
 }
 
 .page-explanation {
-    font-weight: 200;
+  font-weight: 200;
 }
 
-/* Donwload Page */
+/* Download Page */
 
 .page-download {
-    height: 100vh;
-    position: relative;
+  height: 930px;
+  position: relative;
 }
 
 .title-description {
-    position: absolute;
-    top: 50px;
+  position: absolute;
+  top: 50px;
 }
 
 .img-big {
-    height: 600px;
+  height: 600px;
+}
+
+.stars-background {
+  height: 100px;
+  width: 650px;
+  display: inline-block;
+  text-align: center;
+  background-image: url(../css/img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Footer */
 
 .padding-footer {
-    padding: 50px 0px;
+  padding: 50px 0px;
 }
 
 footer {
-    background-color:#23272A;
-    height: 500px;
+  background-color: #23272a;
+  height: 500px;
 }
 
 footer li {
-    display: block;
-    margin: 10px 0px;
+  display: block;
+  margin: 10px 0px;
 }
 
 footer .col ul li a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 footer .col ul a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer h4 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 footer .flag {
-    width: 30px;
-    margin-right: 10px;
-    vertical-align: middle;
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .language {
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    line-height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  line-height: 30px;
 }
 
 footer .lng-choice {
-    height: 30px;
+  height: 30px;
 }
 
 #social-icon {
-    margin-top: 20px;
-    color: white;
+  margin-top: 20px;
+  color: white;
 }
 
 .fa-brands {
-    margin: 0px 10px;
-    font-size: 20px;
+  margin: 0px 10px;
+  font-size: 20px;
 }
 
 footer hr {
-  height: 0; 
-  border: 0; 
-  border-top: 1px solid #7289DA;
-    margin: 30px 0px;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #7289da;
+  margin: 30px 0px;
 }
 
 #footer-logo {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
